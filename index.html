@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMER Forever</title>
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        .fa-solid.fa-star, .fa-solid.fa-star-half-alt {
+            color: gold;
+        }
+        .fa-regular.fa-star {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/img 10000.jpg" alt="Logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="paid-games.html">Paid Games</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </header>
+    
+    <!-- Main Section -->
+    <section class="intro-text">
+        <h1>Gaming Universe</h1>
+        <h2>Top Games</h2>
+        <ul>
+            <li><a href="#">Download free PS5 games</a></li>
+            <li><a href="#">Download free Xbox Series games</a></li>
+            <li><a href="#">Download free PC games</a></li>
+        </ul>
+    </section>
+
+    <!-- Xbox X Series Section -->
+    <section class="xbox-series">
+        <h1>Xbox X Series</h1>
+        <p>New updates on games for Xbox X Series.</p>
+        <div class="course-col">
+            <h2>PS5</h2>
+            <p>Get ready with GTA 5, Far Cry, Call of Duty, and more!</p>
+        </div>
+        <div class="course-col">
+            <h3>PC Games</h3>
+            <p>Find all sorts of games based on your CPU and GPU.</p>
+        </div>
+        <div class="course-col">
+            <h4>PS3 and PS4</h4>
+            <p>Play classic games with smooth input.</p>
+        </div>
+    </section>
+
+    <!-- Arcade Games Section -->
+    <section class="campus">
+        <h1>Arcade Games</h1>
+        <p>Puzzle games for arcade machines.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="eduford_img/img 16.jpeg" alt="Gamers">
+                <div class="layer"><h3>GAMERS</h3></div>
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img/img 27.jpeg" alt="Zone">
+                <div class="layer"><h3>ZONE</h3></div>
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img/img 290.jpeg" alt="Hub">
+                <div class="layer"><h3>HUB</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section class="facilities">
+        <h1>Our Priority</h1>
+        <p>We create websites for easy game access and downloads.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/img14.jpeg" alt="World Class Games">
+                <h3>World Class Games</h3>
+                <p>Explore the best gaming experiences.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/img30.jpeg" alt="3D Games">
+                <h3>3D Game Play</h3>
+                <p>Enjoy immersive gaming with high-quality graphics.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/img16.jpeg" alt="Tasty Power">
+                <h3>Power & Free Mind</h3>
+                <p>Relax and play stress-free games.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h1>Online Games Available - Click Home Button</h1>
+        <p>See what our users say!</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="eduford_img/img0388.jpeg" alt="User 1">
+                <p>I love using this website for games. No viruses, works great!</p>
+                <h3>Mike Kiss</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="testimonial-col">
+                <img src="eduford_img/img27.jpeg" alt="User 2">
+                <p>This website lets me download compressed PC games easily.</p>
+                <h3>Christine Berkley</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navlinks = document.getElementById("nav-links");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
